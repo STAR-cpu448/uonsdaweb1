@@ -1,0 +1,199 @@
+/* Resetting default browser styles */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 5;
+    color: white;
+    transition-delay: 4s;
+    background-image: url('UONSDA A.jpeg');
+    background-size: 112%;
+    max-height: min-content;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; /* Ensures full viewport height coverage */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    backface-visibility: hidden;
+    
+
+}
+
+        p{
+            letter-spacing: 2px;
+            line-height: 18px;
+            margin-top: 0.01cm;
+            margin: 10;
+            text-align: center;
+            font-size: 90%;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: justify;
+            font-weight: bold;
+            color: white;
+        }
+        h3{
+            letter-spacing: 2.5px;
+            line-height: 45px;
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            margin: 0;
+            font-size: 25px;
+            text-align: justify;
+            color: rgb(255, 238, 0); 
+            text-decoration: solid;
+            
+            
+        }
+        h2{
+            margin-top: 1cm;
+            color: rgb(255, 238, 0);
+            margin-top: 1cm;
+            margin-bottom: 3cm;
+            font-size: 27px;
+        }
+        h4{
+            font-size: 27px;
+            color: rgb(255, 255, 255);
+        }
+
+h1 {
+    padding: 10px 0;
+    color: #ffffff;
+    font-size: 45px;
+    text-rendering: geometricPrecision;
+    margin-top: 30%;
+    margin-bottom: 10%;
+
+}
+p3{
+    background-position: center;
+    color: gold;
+    text-align: center;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+p2{
+    color: goldenrod;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2;
+    text-align: center;
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+            width: 400px;
+            height: 80px;
+              border: 2px solid red;
+              border-right: 5cm;
+              border-left: 5cm;
+              border-radius: 13px;
+              box-shadow: 4px 7px 7px 4px #ff191969;
+              cursor: pointer;
+              margin: 10px;
+              transition: 700ms;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+
+    text-decoration: none;
+    color: yellow;
+    font-weight: lighter;
+    font-size: 1.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition-duration: 800ms;
+
+}
+
+header nav ul li a:hover {
+    background-color: black;
+    transition: 0.9s;
+    transform: translateY(-2px)
+    box-shadow: 0 0 5px rgb(255, 51, 0),
+    0 0 25px rgb(20, 0, 165),20 0 200px rgb(20, 0, 163);
+    border-radius: 0.6cap;
+    border-style: solid;
+    filter: red(1);
+    transform: scale(1.1);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-color: blue;
+}
+
+.section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 500px;
+  height: 30px;
+  border: 2px solid rgb(0, 10, 146);
+  border-radius: 13px;
+  box-shadow: 4px 7px 7px 0px #0a009642;
+  cursor: pointer;
+  margin: 10px;
+  transition: 300ms;
+}
+textarea:hover {
+  filter: red;
+  transform: scale(1.1);
+
+}
+button {
+    padding: 10px 40px;
+    background-color: white;
+    color: #ffffff;
+    border-color: yellow (187, 180, 180);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 5px blue,o o 25px rgb(167, 241, 241);
+}
+
+button:hover {
+    background-color: rgb(255, 255, 88);
+    transition: 0.4s;
+    box-shadow: 0 0 5px rgb(255, 0, 0),
+    0 0 25px rgb(255, 0, 0),0 0 200px rgb(255, 0, 0);
+}
+
+footer {
+    background-color: transparent;
+    color: #000000;
+    text-align: center;
+    padding: 1px 0.1;
+    position: var(2);
+    bottom: 0;
+    height: 5.5cm;
+    width: auto%;
+    line-height: 0.2%;
+    
+    
+}
